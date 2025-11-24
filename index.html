@@ -4,57 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Kru Smile's Gradebook</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Mali', 'cursive'],
-              display: ['Mali', 'cursive'],
-            },
-            colors: {
-              cream: '#FFFDF7',
-              peach: '#FFB5A7',
-              mint: '#9BF6FF',
-              lemon: '#FDFFB6',
-              sky: '#A0C4FF',
-              rose: '#FFC6FF',
-              lavender: '#BDB2FF',
-              dark: '#545454',
-            },
-            borderRadius: {
-              'bubble': '2.5rem',
-            },
-            boxShadow: {
-              'soft': '0 8px 20px rgba(149, 157, 165, 0.1)',
-              'pop': '4px 4px 0px 0px rgba(0,0,0,0.1)',
-              'pop-hover': '6px 6px 0px 0px rgba(0,0,0,0.1)',
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      body {
-        font-family: 'Mali', cursive;
-        background-color: #FFFDF7;
-        background-image: radial-gradient(#FFB5A7 2px, transparent 2px), radial-gradient(#9BF6FF 2px, transparent 2px);
-        background-size: 40px 40px;
-        background-position: 0 0, 20px 20px;
-        color: #545454;
-      }
-      /* Hide scrollbar for Chrome, Safari and Opera */
-      .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-      }
-      /* Hide scrollbar for IE, Edge and Firefox */
-      .scrollbar-hide {
-          -ms-overflow-style: none;  /* IE and Edge */
-          scrollbar-width: none;  /* Firefox */
-      }
-    </style>
   <script type="importmap">
 {
   "imports": {
@@ -62,7 +15,9 @@
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "firebase/": "https://aistudiocdn.com/firebase@^12.6.0/"
+    "firebase/": "https://aistudiocdn.com/firebase@^12.6.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>

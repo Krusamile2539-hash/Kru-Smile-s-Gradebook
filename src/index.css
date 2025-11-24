@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Mali', cursive;
+    background-color: #FFFDF7;
+    background-image: radial-gradient(#FFB5A7 2px, transparent 2px), radial-gradient(#9BF6FF 2px, transparent 2px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    color: #545454;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+}
