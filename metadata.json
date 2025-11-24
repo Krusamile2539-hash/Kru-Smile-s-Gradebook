@@ -1,0 +1,5 @@
+{
+  "name": "Kru Smile's Gradebook",
+  "description": "A modern gradebook application for teachers connected to Google Sheets.",
+  "requestFramePermissions": []
+}
