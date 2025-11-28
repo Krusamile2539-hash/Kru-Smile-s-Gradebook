@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Smile, ArrowRight, Folder, ChevronRight, Plus, LayoutGrid, ArrowLeft, Eye, EyeOff, CheckCircle2, CloudUpload, Lock, LogOut } from 'lucide-react';
+import { Smile, ArrowRight, Folder, ChevronRight, Plus, LayoutGrid, ArrowLeft, Eye, EyeOff, CheckCircle2, UploadCloud, Lock, LogOut } from 'lucide-react';
 import useLocalStorage from './hooks/useLocalStorage';
 import StudentList from './components/StudentList';
 import StatsCard from './components/StatsCard';
@@ -263,7 +263,7 @@ const App: React.FC = () => {
                 <div className="flex items-center gap-2">
                    {isSaving ? (
                       <div className="flex items-center gap-1 bg-sky/10 px-2 py-0.5 rounded-full border border-sky/20 animate-pulse">
-                        <CloudUpload size={12} className="text-sky-500"/>
+                        <UploadCloud size={12} className="text-sky-500"/>
                         <span className="text-[10px] font-bold text-sky-600">Saving...</span>
                       </div>
                    ) : (
